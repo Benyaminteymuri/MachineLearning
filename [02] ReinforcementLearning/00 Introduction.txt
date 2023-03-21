@@ -1,0 +1,64 @@
+Diffrent Learning Models: 
+
+  Supervised Learning: Training dats set while contains lable
+  
+    For using these kind of datas, usnig 
+    
+        1. Data set
+        2. converted them to feature vectores contataning pairs of features and their values for each instance of instructional data
+        3. ML algorithem
+        4. Create the Model
+        5. New date 
+        6. convert to feature vectores
+        7. Arrive to the Model
+        8. Likelihood or cluster or better representation is ready!
+  
+      - Classification
+      
+      - Regression
+    
+  Supervised Learning: Training dats set without contains any lable
+  
+    For using these kind of datas, converted them to feature vectores then create a model base of nature of them, and so on.
+      
+      - Clustering
+
+  Reinforcment Learning: more general than two others, learn from interaction environment to achive a goal
+      - Agent: Using one of allowing actions, adding autonomus to agent
+      - GOal-oriented learning
+      - maximize a numerical reward
+      - Trial and error search
+      - Possibility of delayed reward => sacrifice short term gains for greater long term gains
+      - Need to explore and exploit
+      - Elements of RL: 1)Policy=what to do?, 2)Reward=what is good?, 3)Value=what is good because it predicts reward, 4)Model= what follows what
+      - We should adjust 3 parameters of State, Action and reward
+      
+  Some RL History:
+   Trial and error learning
+   Temporal difference learning 
+
+  Evaluative feedback:
+  Evaluating actions vs. instructing by giving correct actions 
+    - Pure evaluative feedback depends totally on the action taken. 
+    - Pure instructive feedback depends not at all on the action taken. 
+    - Supervised learning is instructive; optimization is evaluative 
+    
+  Associative vs. Non-associative: 
+    - Associative: inputs mapped to outputs; learn the best output for each input 
+    - Non-associative: "learn" (find) one best output 
+    
+  n-armed bandit (at least how we treat it) is: 
+    - Non-associative 
+    - Evaluative feedback 
+    - N possible action
+    - U can play for some period of time and U want to Max the reward (expected utility)
+    - Which is the best arm/machine?
+    - Choose repeatedly from one of n action, each choice is called play.
+    - After each play, U get a reward
+    - objective is to Max the reward in the long term, e.g., over 1000 plays.
+    - To solve the n-armed bandit problem, U must explore a variety of actions and the exploit the best of them
+    - the greedy act at t is a*(t) => When we have the estimated value of each action
+    - greedy means exploitation only, i.e., otherwise exploration happening
+    - U can't exploit all the time, or explore all the time
+    - U can never stop exploit all the time, but U should always reduce exploring
+    - Binary bandit tasks:

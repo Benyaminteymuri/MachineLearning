@@ -1,0 +1,14 @@
+                                                Machine Learning!
+====================================================================================================================================
+
+Concept learning
+
+Decision Trees
+	Concept Learning System (CLS)
+	inducing Decision Trees (ID3)
+	inducing Decision Trees (C4.5)
+
+Rule-based learning
+	Sequential Covering Algorithm
+
+Artificial neural network
